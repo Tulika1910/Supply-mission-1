@@ -41,7 +41,8 @@ function setup() {
 
 
 	Engine.run(engine);
-  
+
+	restitution:0.5
 }
 
 function draw() {
@@ -50,6 +51,7 @@ function draw() {
 
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
+    
   
   drawSprites();
  
